@@ -8,6 +8,9 @@ $blue: #005489;
 article{
   margin-top: 1em;
 }
+footer{
+  margin-top: 1em;
+}
 
 /* TYPOGRAPHY --------------------------------------- */
 h1{
@@ -150,4 +153,14 @@ a:hover{
   padding-right: 1em;
 }
 }
+}
+
+/* FOOTER --------------------------------------- */
+footer{
+  ul{
+    list-style: none;
+  }
+  li{
+    float: left;
+  }
 }
