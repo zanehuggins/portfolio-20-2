@@ -15,6 +15,12 @@
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em; }
+  .recent-work .title-square-1 h5 {
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em; }
 .recent-work .right .title-square-2 {
   background-color: #333333;
   height: 100%;
