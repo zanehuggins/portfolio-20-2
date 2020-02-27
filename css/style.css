@@ -1,4 +1,31 @@
 /* VARIABLES --------------------------------------- */
+/* SYMANTIC STUFF --------------------------------------- */
+article {
+  margin-top: 1em; }
+
+/* TYPOGRAPHY --------------------------------------- */
+h1 {
+  font-size: 1.5em;
+  font-family: 'acherusgrotesque-extrabold';
+  line-height: .9em; }
+
+h2 {
+  font-size: 1.25em;
+  font-family: 'acherusgrotesque-extrabold'; }
+
+h3 {
+  font-size: 1.75em;
+  font-family: 'acherusgrotesque-extrabold'; }
+
+h5 {
+  font-size: .7em;
+  font-family: 'acherusgrotesque-regular';
+  line-height: .4em; }
+
+p {
+  font-family: acherusgrotesque-regular, sans-serif;
+  font-size: 1em; }
+
 /* TITLE SQUARE --------------------------------------- */
 .recent-work a {
   padding: 0;
@@ -54,25 +81,6 @@ a:hover .title-square-2 {
   opacity: 1; }
 a:hover .title-square-3 {
   opacity: 1; }
-
-/* TYPOGRAPHY --------------------------------------- */
-h1 {
-  font-size: 1.5em;
-  font-family: 'acherusgrotesque-extrabold';
-  line-height: .9em; }
-
-h2 {
-  font-size: 1.25em;
-  font-family: 'acherusgrotesque-extrabold'; }
-
-h3 {
-  font-size: 1.75em;
-  font-family: 'acherusgrotesque-extrabold'; }
-
-h5 {
-  font-size: .7em;
-  font-family: 'acherusgrotesque-regular';
-  line-height: .4em; }
 
 /* NAVIGATION --------------------------------------- */
 .navbar {
