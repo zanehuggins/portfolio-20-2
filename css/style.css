@@ -3,6 +3,12 @@
 .recent-work a {
   padding: 0;
   position: relative; }
+.recent-work h5 {
+  font-size: 1em;
+  font-family: 'acherusgrotesque-regular';
+  padding-left: .5em;
+  color: white;
+  line-height: 1em; }
 .recent-work .title-square-1 {
   background-color: #ff6371;
   height: 100%;
@@ -15,13 +21,7 @@
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em; }
-  .recent-work .title-square-1 h5 {
-    font-size: 1em;
-    font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
-    color: white;
-    line-height: 1em; }
-.recent-work .right .title-square-2 {
+.recent-work .title-square-2 {
   background-color: #333333;
   height: 100%;
   z-index: 10;
@@ -29,20 +29,30 @@
   position: absolute;
   opacity: 0;
   top: 0; }
-  .recent-work .right .title-square-2 h3 {
+  .recent-work .title-square-2 h3 {
     color: white;
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em; }
-  .recent-work .right .title-square-2 h5 {
-    font-size: 1em;
-    font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+.recent-work .title-square-3 {
+  background-color: #005489;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  top: 0; }
+  .recent-work .title-square-3 h3 {
     color: white;
-    line-height: 1em; }
-.recent-work a:hover .title-square-1 {
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+
+a:hover .title-square-1 {
   opacity: 1; }
-.recent-work a:hover .title-square-2 {
+a:hover .title-square-2 {
+  opacity: 1; }
+a:hover .title-square-3 {
   opacity: 1; }
 
 /* TYPOGRAPHY --------------------------------------- */

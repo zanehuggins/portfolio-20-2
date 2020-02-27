@@ -2,6 +2,7 @@
 /* VARIABLES --------------------------------------- */
 $dark-grey: #333333;
 $pink: #ff6371;
+$blue: #005489;
 
 /* TITLE SQUARE --------------------------------------- */
 .recent-work{
@@ -10,6 +11,13 @@ a{
   position: relative;
 }
 
+h5{
+  font-size: 1em;
+  font-family: 'acherusgrotesque-regular';
+  padding-left: .5em;
+  color: white;
+  line-height: 1em;
+}
 .title-square-1{
   background-color: $pink;
   height: 100%;
@@ -23,16 +31,9 @@ a{
     line-height: 1.25em;
     font-size: 1.25em;
   }
-  h5{
-    font-size: 1em;
-    font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
-    color: white;
-    line-height: 1em;
-  }
 }
 
-.right{
+
 .title-square-2{
   background-color: $dark-grey;
   height: 100%;
@@ -47,12 +48,21 @@ a{
     line-height: 1.25em;
     font-size: 1.25em;
   }
-  h5{
-    font-size: 1em;
-    font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+}
+
+.title-square-3{
+  background-color: $blue;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  h3{
     color: white;
-    line-height: 1em;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em;
   }
 }
 }
@@ -65,8 +75,11 @@ a:hover{
 .title-square-2{
   opacity: 1;
 }
+.title-square-3{
+  opacity: 1;
 }
 }
+
 
 /* TYPOGRAPHY --------------------------------------- */
 h1{
