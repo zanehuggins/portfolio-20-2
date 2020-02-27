@@ -118,5 +118,8 @@ footer ul {
   list-style: none; }
 footer li {
   float: left; }
+  footer li img {
+    width: 2.5em;
+    height: auto; }
 
 /*# sourceMappingURL=style.css.map */
