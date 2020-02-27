@@ -1,23 +1,21 @@
 /* VARIABLES --------------------------------------- */
 /* TITLE SQUARE --------------------------------------- */
-a {
+.recent-work a {
   padding: 0;
   position: relative; }
-
-.title-square-1 {
+.recent-work .title-square-1 {
   background-color: #ff6371;
   height: 100%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0; }
-  .title-square-1 h3 {
+  .recent-work .title-square-1 h3 {
     color: white;
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em; }
-
-.right .title-square-2 {
+.recent-work .right .title-square-2 {
   background-color: #333333;
   height: 100%;
   z-index: 10;
@@ -25,19 +23,15 @@ a {
   position: absolute;
   opacity: 0;
   top: 0; }
-  .right .title-square-2 h3 {
+  .recent-work .right .title-square-2 h3 {
     color: white;
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em; }
-
-a:hover {
-  padding: 0;
-  position: relative; }
-  a:hover .title-square-1 {
-    opacity: 1; }
-  a:hover .title-square-2 {
-    opacity: 1; }
+.recent-work a:hover .title-square-1 {
+  opacity: 1; }
+.recent-work a:hover .title-square-2 {
+  opacity: 1; }
 
 /* TYPOGRAPHY --------------------------------------- */
 h1 {

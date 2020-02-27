@@ -4,6 +4,7 @@ $dark-grey: #333333;
 $pink: #ff6371;
 
 /* TITLE SQUARE --------------------------------------- */
+.recent-work{
 a{
   padding: 0;
   position: relative;
@@ -43,8 +44,6 @@ a{
 }
 
 a:hover{
-  padding: 0;
-  position: relative;
 
   .title-square-1{
     opacity: 1;
@@ -52,8 +51,7 @@ a:hover{
 .title-square-2{
   opacity: 1;
 }
-
-
+}
 }
 
 /* TYPOGRAPHY --------------------------------------- */
