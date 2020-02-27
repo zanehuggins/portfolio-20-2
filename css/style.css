@@ -1,0 +1,89 @@
+/* VARIABLES --------------------------------------- */
+/* TITLE SQUARE --------------------------------------- */
+a {
+  padding: 0;
+  position: relative; }
+
+.title-square-1 {
+  background-color: #ff6371;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0; }
+  .title-square-1 h3 {
+    color: white;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+
+.right .title-square-2 {
+  background-color: #333333;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  top: 0; }
+  .right .title-square-2 h3 {
+    color: white;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+
+a:hover {
+  padding: 0;
+  position: relative; }
+  a:hover .title-square-1 {
+    opacity: 1; }
+  a:hover .title-square-2 {
+    opacity: 1; }
+
+/* TYPOGRAPHY --------------------------------------- */
+h1 {
+  font-size: 1.5em;
+  font-family: 'acherusgrotesque-extrabold';
+  line-height: .9em; }
+
+h2 {
+  font-size: 1.25em;
+  font-family: 'acherusgrotesque-extrabold'; }
+
+h3 {
+  font-size: 1.75em;
+  font-family: 'acherusgrotesque-extrabold'; }
+
+h5 {
+  font-size: .7em;
+  font-family: 'acherusgrotesque-regular';
+  line-height: .4em; }
+
+/* NAVIGATION --------------------------------------- */
+.navbar {
+  background-color: white !important; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.subnav {
+  border-top: 4px solid #333333;
+  height: 0; }
+
+/* HOME --------------------------------------- */
+.recent-work h2 {
+  padding-top: 1em;
+  text-transform: uppercase; }
+.recent-work ul {
+  list-style: none; }
+  .recent-work ul li {
+    float: left; }
+  .recent-work ul .left {
+    padding-left: 1em;
+    padding-bottom: .5em;
+    padding-right: .25em; }
+  .recent-work ul .right {
+    padding-left: .25em;
+    padding-bottom: .5em;
+    padding-right: 1em; }
+
+/*# sourceMappingURL=style.css.map */
