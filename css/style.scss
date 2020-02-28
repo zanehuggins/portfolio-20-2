@@ -83,6 +83,8 @@ h5{
   color: white;
   line-height: 1em;
 }
+}
+
 .title-square-1{
   background-color: $pink;
   height: 100%;
@@ -95,6 +97,13 @@ h5{
     padding: .5em;
     line-height: 1.25em;
     font-size: 1.25em;
+  }
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em;
   }
 }
 
@@ -112,6 +121,13 @@ h5{
     line-height: 1.25em;
     font-size: 1.25em;
   }
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em;
+  }
 }
 
 .title-square-3{
@@ -128,7 +144,13 @@ h5{
     line-height: 1.25em;
     font-size: 1.25em;
   }
-}
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em;
+  }
 }
 
 a:hover{
@@ -143,6 +165,8 @@ a:hover{
   opacity: 1;
 }
 }
+
+
 
 /* NAVIGATION --------------------------------------- */
 nav{
@@ -269,22 +293,12 @@ ul {
   overflow: hidden;
 }
 ul li {
-  width: auto;
-  height: auto;
-  padding: 10px 15px;
-  background: red;
-  color: #fff;
-  float: left;
+padding: .25em;
+position: relative;
 }
 .mix {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 0 5px;
+
 }
 
-.red {background: red;}
-.green {background: green;}
-.blue {background: blue;}
 .containMix .mix {display: none;}
 }

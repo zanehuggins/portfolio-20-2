@@ -60,44 +60,65 @@ p {
     padding-left: .5em;
     color: white;
     line-height: 1em; }
-  .recent-work .title-square-1 {
-    background-color: #ff6371;
-    height: 100%;
-    z-index: 10;
-    float: left;
-    position: absolute;
-    opacity: 0; }
-    .recent-work .title-square-1 h3 {
-      color: white;
-      padding: .5em;
-      line-height: 1.25em;
-      font-size: 1.25em; }
-  .recent-work .title-square-2 {
-    background-color: #333333;
-    height: 100%;
-    z-index: 10;
-    float: left;
-    position: absolute;
-    opacity: 0;
-    top: 0; }
-    .recent-work .title-square-2 h3 {
-      color: white;
-      padding: .5em;
-      line-height: 1.25em;
-      font-size: 1.25em; }
-  .recent-work .title-square-3 {
-    background-color: #005489;
-    height: 100%;
-    z-index: 10;
-    float: left;
-    position: absolute;
-    opacity: 0;
-    top: 0; }
-    .recent-work .title-square-3 h3 {
-      color: white;
-      padding: .5em;
-      line-height: 1.25em;
-      font-size: 1.25em; }
+
+.title-square-1 {
+  background-color: #ff6371;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0; }
+  .title-square-1 h3 {
+    color: white;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+  .title-square-1 h5 {
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em; }
+
+.title-square-2 {
+  background-color: #333333;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  top: 0; }
+  .title-square-2 h3 {
+    color: white;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+  .title-square-2 h5 {
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em; }
+
+.title-square-3 {
+  background-color: #005489;
+  height: 100%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  top: 0; }
+  .title-square-3 h3 {
+    color: white;
+    padding: .5em;
+    line-height: 1.25em;
+    font-size: 1.25em; }
+  .title-square-3 h5 {
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
+    color: white;
+    line-height: 1em; }
 
 a:hover .title-square-1 {
   opacity: 1; }
@@ -187,23 +208,8 @@ footer li {
   width: 100%;
   overflow: hidden; }
 .container-mixitup ul li {
-  width: auto;
-  height: auto;
-  padding: 10px 15px;
-  background: red;
-  color: #fff;
-  float: left; }
-.container-mixitup .mix {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 0 5px; }
-.container-mixitup .red {
-  background: red; }
-.container-mixitup .green {
-  background: green; }
-.container-mixitup .blue {
-  background: blue; }
+  padding: .25em;
+  position: relative; }
 .container-mixitup .containMix .mix {
   display: none; }
 
