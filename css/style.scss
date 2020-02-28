@@ -5,6 +5,10 @@ $pink: #ff6371;
 $blue: #005489;
 
 /* SYMANTIC STUFF --------------------------------------- */
+nav{
+  margin-bottom: 0!important;
+  padding-bottom: 0!important;
+}
 article{
   margin-top: 1em;
 }
@@ -20,7 +24,7 @@ h1{
 }
 
 h2{
-  font-size: 1.25em;
+  font-size: 1.75em;
   font-family: 'acherusgrotesque-extrabold';
 }
 
@@ -37,7 +41,8 @@ h5{
 
 p{
   font-family: acherusgrotesque-regular, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.9em;
 }
 
 /* TITLE SQUARE --------------------------------------- */
@@ -116,14 +121,28 @@ a:hover{
 }
 
 /* NAVIGATION --------------------------------------- */
+nav{
+  ul{
+    margin-top: 3em;
+  }
+  li{
+    width: 40%;
+    a{
+      text-align: center;
+    }
+  }
+  .active a{
+    background-color: $dark-grey;
+    color: white !important;
+    font-weight: bold;
+  }
+}
 .navbar{
   background-color: white !important;
 }
-
 .navbar-toggler{
   border: none !important;
 }
-
 .subnav{
   border-top: 4px solid $dark-grey;
   height: 0;

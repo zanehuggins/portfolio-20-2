@@ -1,5 +1,9 @@
 /* VARIABLES --------------------------------------- */
 /* SYMANTIC STUFF --------------------------------------- */
+nav {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important; }
+
 article {
   margin-top: 1em; }
 
@@ -13,7 +17,7 @@ h1 {
   line-height: .9em; }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.75em;
   font-family: 'acherusgrotesque-extrabold'; }
 
 h3 {
@@ -27,7 +31,8 @@ h5 {
 
 p {
   font-family: acherusgrotesque-regular, sans-serif;
-  font-size: 1em; }
+  font-size: 1.1em;
+  line-height: 1.9em; }
 
 /* TITLE SQUARE --------------------------------------- */
 .recent-work a {
@@ -86,6 +91,17 @@ a:hover .title-square-3 {
   opacity: 1; }
 
 /* NAVIGATION --------------------------------------- */
+nav ul {
+  margin-top: 3em; }
+nav li {
+  width: 40%; }
+  nav li a {
+    text-align: center; }
+nav .active a {
+  background-color: #333333;
+  color: white !important;
+  font-weight: bold; }
+
 .navbar {
   background-color: white !important; }
 
