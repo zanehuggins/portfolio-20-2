@@ -91,15 +91,9 @@ a:hover .title-square-3 {
   opacity: 1; }
 
 /* NAVIGATION --------------------------------------- */
-nav ul {
-  margin-top: 3em; }
-nav li {
-  width: 40%; }
-  nav li a {
-    text-align: center; }
+nav a {
+  text-align: left; }
 nav .active a {
-  background-color: #333333;
-  color: white !important;
   font-weight: bold; }
 
 .navbar {
@@ -137,5 +131,18 @@ footer li {
   footer li img {
     width: 2.5em;
     height: auto; }
+
+/* MEDIA 567px */
+@media (min-width: 567px) {
+  nav ul {
+    margin-top: 3em; }
+  nav li {
+    width: 40%; }
+    nav li a {
+      text-align: center; }
+  nav .active a {
+    background-color: #333333;
+    color: white !important;
+    font-weight: bold; } }
 
 /*# sourceMappingURL=style.css.map */

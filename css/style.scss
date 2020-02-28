@@ -122,18 +122,11 @@ a:hover{
 
 /* NAVIGATION --------------------------------------- */
 nav{
-  ul{
-    margin-top: 3em;
-  }
-  li{
-    width: 40%;
+
     a{
-      text-align: center;
-    }
+      text-align: left;
   }
   .active a{
-    background-color: $dark-grey;
-    color: white !important;
     font-weight: bold;
   }
 }
@@ -186,4 +179,25 @@ footer{
       height: auto;
     }
   }
+}
+
+/* MEDIA 567px */
+
+@media (min-width: 567px){
+  nav{
+    ul{
+      margin-top: 3em;
+    }
+  li{
+    width: 40%;
+    a{
+      text-align: center;
+    }
+  }
+  .active a{
+    background-color: $dark-grey;
+    color: white !important;
+    font-weight: bold;
+  }
+}
 }
