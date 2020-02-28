@@ -139,13 +139,14 @@ nav{
 .subnav{
   border-top: 4px solid $dark-grey;
   height: 0;
+  margin-top: 0;
 }
 
 /* HOME --------------------------------------- */
 
 .recent-work{
   h2{
-    padding-top: 1em;
+    margin-top: 1.5em;
     text-transform: uppercase;
   }
   ul{
@@ -155,6 +156,13 @@ nav{
         padding: .25em;
     }
 }
+}
+
+article{
+  h2{
+    margin-top: .8em;
+    margin-bottom: .8em;
+  }
 }
 
 /* FOOTER --------------------------------------- */
@@ -193,9 +201,9 @@ footer{
 
 ul{
   list-style: none;
+
   li{
     float: left;
-    padding-bottom: .5em;
   }
 }
 li:nth-child(2){

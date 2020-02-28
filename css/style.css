@@ -104,17 +104,22 @@ nav .active a {
 
 .subnav {
   border-top: 4px solid #333333;
-  height: 0; }
+  height: 0;
+  margin-top: 0; }
 
 /* HOME --------------------------------------- */
 .recent-work h2 {
-  padding-top: 1em;
+  margin-top: 1.5em;
   text-transform: uppercase; }
 .recent-work ul {
   list-style: none; }
   .recent-work ul li {
     float: left;
     padding: .25em; }
+
+article h2 {
+  margin-top: .8em;
+  margin-bottom: .8em; }
 
 /* FOOTER --------------------------------------- */
 footer ul {
@@ -141,8 +146,7 @@ footer li {
   ul {
     list-style: none; }
     ul li {
-      float: left;
-      padding-bottom: .5em; }
+      float: left; }
 
   li:nth-child(2) {
     padding-right: .25em; }
