@@ -20,8 +20,9 @@ h1 {
   line-height: .9em; }
 
 h2 {
-  font-size: 1.5em;
-  font-family: 'acherusgrotesque-extrabold'; }
+  font-size: 1.25em;
+  font-family: 'acherusgrotesque-extrabold';
+  letter-spacing: .25em; }
 
 h3 {
   font-size: 1.75em;
@@ -118,7 +119,6 @@ nav .active a {
 
 /* HOME --------------------------------------- */
 .recent-work h2 {
-  margin-top: 1.5em;
   text-transform: uppercase; }
 .recent-work ul {
   list-style: none; }
@@ -166,8 +166,16 @@ footer li {
     padding-left: .25em; }
 
   .recent-work h2 {
-    padding: inherit; }
+    padding-top: .75em;
+    padding-left: .5em; }
   .recent-work ul {
     padding: inherit; } }
+@media (min-width: 992px) {
+  p {
+    font-size: 1.1em; } }
+@media (min-width: 1200px) {
+  .recent-work {
+    float: right;
+    padding-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
