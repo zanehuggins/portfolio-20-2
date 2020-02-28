@@ -10,6 +10,9 @@ article {
 footer {
   margin-top: 1em; }
 
+.container-screen {
+  min-height: 100vh; }
+
 /* TYPOGRAPHY --------------------------------------- */
 h1 {
   font-size: 1.5em;
@@ -17,7 +20,7 @@ h1 {
   line-height: .9em; }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-family: 'acherusgrotesque-extrabold'; }
 
 h3 {
@@ -35,57 +38,59 @@ p {
   line-height: 1.9em; }
 
 /* TITLE SQUARE --------------------------------------- */
-.recent-work h2 {
-  padding: 0; }
-.recent-work ul {
-  padding: 0; }
-.recent-work a {
-  padding: 0;
-  position: relative; }
-.recent-work h5 {
-  font-size: 1em;
-  font-family: 'acherusgrotesque-regular';
-  padding-left: .5em;
-  color: white;
-  line-height: 1em; }
-.recent-work .title-square-1 {
-  background-color: #ff6371;
-  height: 100%;
-  z-index: 10;
-  float: left;
-  position: absolute;
-  opacity: 0; }
-  .recent-work .title-square-1 h3 {
+.recent-work {
+  padding: .5em; }
+  .recent-work h2 {
+    padding: 0; }
+  .recent-work ul {
+    padding: 0; }
+  .recent-work a {
+    padding: 0;
+    position: relative; }
+  .recent-work h5 {
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .5em;
     color: white;
-    padding: .5em;
-    line-height: 1.25em;
-    font-size: 1.25em; }
-.recent-work .title-square-2 {
-  background-color: #333333;
-  height: 100%;
-  z-index: 10;
-  float: left;
-  position: absolute;
-  opacity: 0;
-  top: 0; }
-  .recent-work .title-square-2 h3 {
-    color: white;
-    padding: .5em;
-    line-height: 1.25em;
-    font-size: 1.25em; }
-.recent-work .title-square-3 {
-  background-color: #005489;
-  height: 100%;
-  z-index: 10;
-  float: left;
-  position: absolute;
-  opacity: 0;
-  top: 0; }
-  .recent-work .title-square-3 h3 {
-    color: white;
-    padding: .5em;
-    line-height: 1.25em;
-    font-size: 1.25em; }
+    line-height: 1em; }
+  .recent-work .title-square-1 {
+    background-color: #ff6371;
+    height: 100%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0; }
+    .recent-work .title-square-1 h3 {
+      color: white;
+      padding: .5em;
+      line-height: 1.25em;
+      font-size: 1.25em; }
+  .recent-work .title-square-2 {
+    background-color: #333333;
+    height: 100%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0;
+    top: 0; }
+    .recent-work .title-square-2 h3 {
+      color: white;
+      padding: .5em;
+      line-height: 1.25em;
+      font-size: 1.25em; }
+  .recent-work .title-square-3 {
+    background-color: #005489;
+    height: 100%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0;
+    top: 0; }
+    .recent-work .title-square-3 h3 {
+      color: white;
+      padding: .5em;
+      line-height: 1.25em;
+      font-size: 1.25em; }
 
 a:hover .title-square-1 {
   opacity: 1; }
@@ -121,9 +126,11 @@ nav .active a {
     float: left;
     padding: .25em; }
 
-article h2 {
-  margin-top: .8em;
-  margin-bottom: .8em; }
+article {
+  float: left; }
+  article h2 {
+    margin-top: .8em;
+    margin-bottom: .8em; }
 
 /* FOOTER --------------------------------------- */
 footer ul {
