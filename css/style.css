@@ -113,15 +113,8 @@ nav .active a {
 .recent-work ul {
   list-style: none; }
   .recent-work ul li {
-    float: left; }
-  .recent-work ul .left {
-    padding-left: 1em;
-    padding-bottom: .5em;
-    padding-right: .25em; }
-  .recent-work ul .right {
-    padding-left: .25em;
-    padding-bottom: .5em;
-    padding-right: 1em; }
+    float: left;
+    padding: .25em; }
 
 /* FOOTER --------------------------------------- */
 footer ul {
@@ -143,6 +136,18 @@ footer li {
   nav .active a {
     background-color: #333333;
     color: white !important;
-    font-weight: bold; } }
+    font-weight: bold; }
+
+  ul {
+    list-style: none; }
+    ul li {
+      float: left;
+      padding-bottom: .5em; }
+
+  li:nth-child(2) {
+    padding-right: .25em; }
+
+  li:nth-child(3) {
+    padding-left: .25em; } }
 
 /*# sourceMappingURL=style.css.map */

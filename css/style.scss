@@ -152,18 +152,8 @@ nav{
     list-style: none;
     li{
       float: left;
+        padding: .25em;
     }
-    .left{
-    padding-left: 1em;
-    padding-bottom: .5em;
-    padding-right: .25em;
-  }
-
-.right{
-  padding-left: .25em;
-  padding-bottom: .5em;
-  padding-right: 1em;
-}
 }
 }
 
@@ -200,4 +190,19 @@ footer{
     font-weight: bold;
   }
 }
+
+ul{
+  list-style: none;
+  li{
+    float: left;
+    padding-bottom: .5em;
+  }
+}
+li:nth-child(2){
+padding-right: .25em;
+}
+li:nth-child(3){
+padding-left: .25em;
+}
+
 }
