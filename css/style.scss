@@ -47,6 +47,12 @@ p{
 
 /* TITLE SQUARE --------------------------------------- */
 .recent-work{
+  h2{
+    padding: 0;
+  }
+  ul{
+    padding: 0;
+  }
 a{
   padding: 0;
   position: relative;
@@ -122,7 +128,6 @@ a:hover{
 
 /* NAVIGATION --------------------------------------- */
 nav{
-
     a{
       text-align: left;
   }
@@ -211,6 +216,15 @@ padding-right: .25em;
 }
 li:nth-child(3){
 padding-left: .25em;
+}
+
+.recent-work{
+  h2{
+    padding: inherit;
+  }
+  ul{
+    padding: inherit;
+  }
 }
 
 }

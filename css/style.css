@@ -35,6 +35,10 @@ p {
   line-height: 1.9em; }
 
 /* TITLE SQUARE --------------------------------------- */
+.recent-work h2 {
+  padding: 0; }
+.recent-work ul {
+  padding: 0; }
 .recent-work a {
   padding: 0;
   position: relative; }
@@ -152,6 +156,11 @@ footer li {
     padding-right: .25em; }
 
   li:nth-child(3) {
-    padding-left: .25em; } }
+    padding-left: .25em; }
+
+  .recent-work h2 {
+    padding: inherit; }
+  .recent-work ul {
+    padding: inherit; } }
 
 /*# sourceMappingURL=style.css.map */
