@@ -42,26 +42,26 @@
   </div>
 </nav>
 
-<div class="subnav col-12 p-0 float-left"></div>
+<div class="container-mixitup col-12 p-0">
 
-<div class="recent-work col-12 col-lg-10 offset-lg-1 col-xl-5">
-<h2 class="col-12">Recent Work</h2>
-<ul class="col-12">
-<li class="col-6 col-md-6 col-xl-6 left"><a href="#" class="float-left"><div class="title-square-1 col-12 p-0"><h3>COFFEE CO-OP</h3><h5>Tap to see full project</h5></div><img src="images/coffee-co-op.png" alt="Coffee Co-Op Project Mockup" class="col-12 p-0"></a></li>
-<li class="col-6 col-md-3 col-xl-6 right"><a href="#" class="float-left"><div class="title-square-2 col-12 p-0"><h3>CHAMPION TROPHIES & AWARDS</h3><h5>Tap to see full project</h5></div><img src="images/coffee-co-op.png" alt="#" class="col-12 p-0"></a></li>
-<li class="col-6 col-md-3 col-xl-6 left"><a href="#" class="float-left"><div class="title-square-3 col-12 p-0"><h3>CINEMATIC FIXATIONS</h3><h5>Tap to see full project</h5></div><img src="images/coffee-co-op.png" alt="Coffee Co-Op Project Mockup" class="col-12 p-0"></a></li>
-<li class="col-6 col-md-3 col-xl-6 "><a href="#" class="float-left"><div class="title-square-2 col-12 p-0"><h3>CHAMPION TROPHIES & AWARDS</h3><h5>Tap to see full project</h5></div><img src="images/coffee-co-op.png" alt="#" class="col-12 p-0"></a></li>
-<li class="col-6 col-md-3 d-xl-none right"><a href="#" class="float-left"><div class="title-square-2 col-12 p-0"><h3>CHAMPION TROPHIES & AWARDS</h3><h5>Tap to see full project</h5></div><img src="images/coffee-co-op.png" alt="#" class="col-12 p-0"></a></li>
-</ul>
+<div class="subnav col-12 p-0 float-left" id="subnav">
+
+        <a href="#" class="filter" data-filter="all">All</a>
+        <a href="#" class="filter" data-filter=".branding">Branding</a>
+        <a href="#" class="filter" data-filter=".web">Web</a>
+        <a href="#" class="filter" data-filter=".animation">Animation</a>
+        <a href="#" class="filter" data-filter=".greencolor">Animation</a>
+    </div>
+
+    <div class="containMix">
+        <div class="mix branding col-"></div>
+        <div class="mix web"></div>
+        <div class="mix animation"></div>
+        <div class="mix branding"></div>
+        <div class="mix web"></div>
+        <div class="mix animation"></div>
+    </div>
 </div>
-
-<article class="col-12 col-md-10 col-lg-6 col-xl-5 offset-md-1 float-left p-0">
-  <h2 class="col-12 float-left">ABOUT ME</h2>
-  <p class="col-12 float-left">
-    My name is Zane Huggins. I am a graphic designer who believes in designing for a purpose, designing for a need, and designing for a cause. I am an evolving artist who finds beauty in the uncommon places of the world. I focus on branding and identity development including, but not limited to, logos, iconography, web design, and stationary design. I am a senior Graphic Design student at West Virginia University. I will be graduating in May of 2020.
-  </p>
-</article>
-
 
 <footer class="col-12 col-md-6 col-lg-5 offset-lg-1 p-0 float-left">
   <ul class="col-12 p-0 float-left">
@@ -70,12 +70,19 @@
   </ul>
 </footer>
 
+<script src="js/jquery.2.min.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script>
+    $('.containMix').mixItUp();
+</script>
 
 </div> <!-- CLOSES CONTAINER -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
 
 </body>
 

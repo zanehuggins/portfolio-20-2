@@ -14,15 +14,25 @@ article{
 }
 footer{
   margin-top: 1em;
+  height: 100%;
 
 }
 .container-screen{
   min-height: 100vh;
 }
 
+#subnav{
+  height: 3em;
+  background-color: $dark-grey;
+}
+
+
+
+
+
 /* TYPOGRAPHY --------------------------------------- */
 h1{
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: 'acherusgrotesque-extrabold';
   line-height: .9em;
 }
@@ -53,6 +63,7 @@ p{
 /* TITLE SQUARE --------------------------------------- */
 .recent-work{
   padding: .5em;
+  float: left;
   h2{
     padding: 0;
 
@@ -247,4 +258,33 @@ padding-left: .25em;
     float: right;
 padding-top: 0;
   }
+}
+
+
+
+
+.container-mixitup{
+ul {
+  width: 100%;
+  overflow: hidden;
+}
+ul li {
+  width: auto;
+  height: auto;
+  padding: 10px 15px;
+  background: red;
+  color: #fff;
+  float: left;
+}
+.mix {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 0 5px;
+}
+
+.red {background: red;}
+.green {background: green;}
+.blue {background: blue;}
+.containMix .mix {display: none;}
 }
