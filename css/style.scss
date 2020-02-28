@@ -71,9 +71,13 @@ p{
   ul{
     padding: 0;
   }
+  li{
+    position: relative;
+  }
 a{
   padding: 0;
-  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 h5{
@@ -87,11 +91,13 @@ h5{
 
 .title-square-1{
   background-color: $pink;
-  height: 100%;
+  height: 98%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
+  width: 98%;
+
   h3{
     color: white;
     padding: .5em;
@@ -104,12 +110,18 @@ h5{
     padding-left: .5em;
     color: white;
     line-height: 1em;
+  }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
   }
 }
 
 .title-square-2{
   background-color: $dark-grey;
-  height: 100%;
+  height: 98%;
+  width: 98%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -127,12 +139,18 @@ h5{
     padding-left: .5em;
     color: white;
     line-height: 1em;
+  }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
   }
 }
 
 .title-square-3{
   background-color: $blue;
-  height: 100%;
+  height: 98%;
+  width: 98%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -151,9 +169,14 @@ h5{
     color: white;
     line-height: 1em;
   }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
 }
 
-a:hover{
+li:hover {
 
   .title-square-1{
     opacity: 1;

@@ -51,9 +51,12 @@ p {
     padding: 0; }
   .recent-work ul {
     padding: 0; }
+  .recent-work li {
+    position: relative; }
   .recent-work a {
     padding: 0;
-    position: relative; }
+    height: 100%;
+    width: 100%; }
   .recent-work h5 {
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
@@ -63,11 +66,12 @@ p {
 
 .title-square-1 {
   background-color: #ff6371;
-  height: 100%;
+  height: 98%;
   z-index: 10;
   float: left;
   position: absolute;
-  opacity: 0; }
+  opacity: 0;
+  width: 98%; }
   .title-square-1 h3 {
     color: white;
     padding: .5em;
@@ -79,10 +83,15 @@ p {
     padding-left: .5em;
     color: white;
     line-height: 1em; }
+  .title-square-1 a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none; }
 
 .title-square-2 {
   background-color: #333333;
-  height: 100%;
+  height: 98%;
+  width: 98%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -99,10 +108,15 @@ p {
     padding-left: .5em;
     color: white;
     line-height: 1em; }
+  .title-square-2 a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none; }
 
 .title-square-3 {
   background-color: #005489;
-  height: 100%;
+  height: 98%;
+  width: 98%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -119,12 +133,16 @@ p {
     padding-left: .5em;
     color: white;
     line-height: 1em; }
+  .title-square-3 a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none; }
 
-a:hover .title-square-1 {
+li:hover .title-square-1 {
   opacity: 1; }
-a:hover .title-square-2 {
+li:hover .title-square-2 {
   opacity: 1; }
-a:hover .title-square-3 {
+li:hover .title-square-3 {
   opacity: 1; }
 
 /* NAVIGATION --------------------------------------- */
