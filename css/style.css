@@ -229,9 +229,6 @@ footer li {
     padding-left: .5em; }
   .recent-work ul {
     padding: inherit; } }
-@media (min-width: 992px) {
-  p {
-    font-size: 1.1em; } }
 @media (min-width: 1200px) {
   .recent-work {
     float: right;
