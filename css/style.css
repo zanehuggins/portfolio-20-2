@@ -4,9 +4,6 @@ nav {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important; }
 
-article {
-  margin-top: 1em; }
-
 footer {
   margin-top: 1em;
   height: 100%; }
@@ -27,7 +24,8 @@ h1 {
 h2 {
   font-size: 1.25em;
   font-family: 'acherusgrotesque-extrabold';
-  letter-spacing: .25em; }
+  letter-spacing: .25em;
+  margin: 0; }
 
 h3 {
   font-size: 1.75em;
@@ -95,8 +93,7 @@ p {
   z-index: 10;
   float: left;
   position: absolute;
-  opacity: 0;
-  top: 0; }
+  opacity: 0; }
   .title-square-2 h3 {
     color: white;
     padding: .5em;
@@ -120,8 +117,7 @@ p {
   z-index: 10;
   float: left;
   position: absolute;
-  opacity: 0;
-  top: 0; }
+  opacity: 0; }
   .title-square-3 h3 {
     color: white;
     padding: .5em;
@@ -162,6 +158,17 @@ nav .active a {
   height: 0;
   margin-top: 0; }
 
+.subnav li {
+  text-align: left;
+  list-style: none;
+  float: left;
+  margin-right: 3em; }
+.subnav a {
+  color: white;
+  text-decoration: none; }
+.subnav a:hover {
+  opacity: .75; }
+
 /* HOME --------------------------------------- */
 .recent-work h2 {
   text-transform: uppercase; }
@@ -174,12 +181,15 @@ nav .active a {
 article {
   float: left; }
   article h2 {
-    margin-top: .8em;
-    margin-bottom: .8em; }
+    margin-top: .8em; }
 
 /* HOME --------------------------------------- */
 .portfolio-items {
   margin-top: .75em; }
+
+/* WORK-TITLE --------------------------------------- */
+.title {
+  margin-top: 2em !important; }
 
 /* FOOTER --------------------------------------- */
 footer ul {
