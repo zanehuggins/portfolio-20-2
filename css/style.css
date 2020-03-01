@@ -187,9 +187,12 @@ article {
 .portfolio-items {
   margin-top: .75em; }
 
-/* WORK-TITLE --------------------------------------- */
+/* INDIVIDUAL-PIECE --------------------------------------- */
 .title {
   margin-top: 2em !important; }
+
+.photo-container {
+  margin-top: 2em; }
 
 /* FOOTER --------------------------------------- */
 footer ul {
