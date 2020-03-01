@@ -55,30 +55,104 @@ p {
     padding: 0;
     height: 100%;
     width: 100%; }
-  .recent-work h5 {
-    font-size: 1em;
-    font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
-    color: white;
-    line-height: 1em; }
+  .recent-work .title-square-1 {
+    background-color: #ff6371;
+    height: 97.5%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0;
+    width: 97.5%; }
+    .recent-work .title-square-1 h3 {
+      color: white;
+      margin-top: .5em;
+      padding: .1em;
+      line-height: 1em;
+      font-size: 2em; }
+    .recent-work .title-square-1 h5 {
+      font-size: 1em;
+      font-family: 'acherusgrotesque-regular';
+      padding-left: .5em;
+      color: white;
+      line-height: 1em; }
+    .recent-work .title-square-1 a {
+      height: 100%;
+      width: 100%;
+      text-decoration: none; }
+  .recent-work .title-square-2 {
+    background-color: #333333;
+    height: 97.5%;
+    width: 97.5%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0; }
+    .recent-work .title-square-2 h3 {
+      color: white;
+      margin-top: .5em;
+      padding-left: .5em;
+      line-height: 1em;
+      font-size: 2em; }
+    .recent-work .title-square-2 h5 {
+      font-size: 1em;
+      font-family: 'acherusgrotesque-regular';
+      padding-left: 1em;
+      color: white;
+      line-height: 1em; }
+    .recent-work .title-square-2 a {
+      height: 100%;
+      width: 100%;
+      text-decoration: none; }
+  .recent-work .title-square-3 {
+    background-color: #005489;
+    height: 97.5%;
+    width: 97.5%;
+    z-index: 10;
+    float: left;
+    position: absolute;
+    opacity: 0; }
+    .recent-work .title-square-3 h3 {
+      color: white;
+      margin-top: .5em;
+      padding: .5em;
+      line-height: 1em;
+      font-size: 2em; }
+    .recent-work .title-square-3 h5 {
+      font-size: 1em;
+      font-family: 'acherusgrotesque-regular';
+      padding-left: 1em;
+      color: white;
+      line-height: 1em; }
+    .recent-work .title-square-3 a {
+      height: 100%;
+      width: 100%;
+      text-decoration: none; }
+  .recent-work li:hover .title-square-1 {
+    opacity: 1; }
+  .recent-work li:hover .title-square-2 {
+    opacity: 1; }
+  .recent-work li:hover .title-square-3 {
+    opacity: 1; }
 
+/* PORTFOLIO PAGE  --------------------------------------- */
 .title-square-1 {
   background-color: #ff6371;
-  height: 98%;
+  height: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
-  width: 98%; }
+  width: 97.5%; }
   .title-square-1 h3 {
     color: white;
-    padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em; }
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em; }
   .title-square-1 h5 {
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+    padding-left: .25em;
     color: white;
     line-height: 1em; }
   .title-square-1 a {
@@ -88,21 +162,22 @@ p {
 
 .title-square-2 {
   background-color: #333333;
-  height: 98%;
-  width: 98%;
+  height: 97.5%;
+  width: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0; }
   .title-square-2 h3 {
     color: white;
-    padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em; }
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em; }
   .title-square-2 h5 {
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+    padding-left: .25em;
     color: white;
     line-height: 1em; }
   .title-square-2 a {
@@ -112,21 +187,22 @@ p {
 
 .title-square-3 {
   background-color: #005489;
-  height: 98%;
-  width: 98%;
+  height: 97.5%;
+  width: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0; }
   .title-square-3 h3 {
     color: white;
-    padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em; }
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em; }
   .title-square-3 h5 {
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+    padding-left: .25em;
     color: white;
     line-height: 1em; }
   .title-square-3 a {
@@ -185,7 +261,8 @@ article {
 
 /* HOME --------------------------------------- */
 .portfolio-items {
-  margin-top: .75em; }
+  margin-top: .75em;
+  list-style: none; }
 
 /* INDIVIDUAL-PIECE --------------------------------------- */
 .title {

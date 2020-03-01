@@ -75,29 +75,23 @@ a{
   width: 100%;
 }
 
-h5{
-  font-size: 1em;
-  font-family: 'acherusgrotesque-regular';
-  padding-left: .5em;
-  color: white;
-  line-height: 1em;
-}
-}
+
 
 .title-square-1{
   background-color: $pink;
-  height: 98%;
+  height: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
-  width: 98%;
+  width: 97.5%;
 
   h3{
     color: white;
-    padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em;
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em;
   }
   h5{
     font-size: 1em;
@@ -115,22 +109,23 @@ h5{
 
 .title-square-2{
   background-color: $dark-grey;
-  height: 98%;
-  width: 98%;
+  height: 97.5%;
+  width: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
   h3{
     color: white;
-    padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em;
+    margin-top: .5em;
+    padding-left: .5em;
+    line-height: 1em;
+    font-size: 2em;
   }
   h5{
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+    padding-left: 1em;
     color: white;
     line-height: 1em;
   }
@@ -143,22 +138,127 @@ h5{
 
 .title-square-3{
   background-color: $blue;
-  height: 98%;
-  width: 98%;
+  height: 97.5%;
+  width: 97.5%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
   h3{
     color: white;
+    margin-top: .5em;
     padding: .5em;
-    line-height: 1.15em;
-    font-size: 2.5em;
+    line-height: 1em;
+    font-size: 2em;
   }
   h5{
     font-size: 1em;
     font-family: 'acherusgrotesque-regular';
-    padding-left: .5em;
+    padding-left: 1em;
+    color: white;
+    line-height: 1em;
+  }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+li:hover {
+
+  .title-square-1{
+    opacity: 1;
+}
+.title-square-2{
+  opacity: 1;
+}
+.title-square-3{
+  opacity: 1;
+}
+}
+
+}
+
+/* PORTFOLIO PAGE  --------------------------------------- */
+.title-square-1{
+  background-color: $pink;
+  height: 97.5%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  width: 97.5%;
+
+  h3{
+    color: white;
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em;
+  }
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .25em;
+    color: white;
+    line-height: 1em;
+  }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+.title-square-2{
+  background-color: $dark-grey;
+  height: 97.5%;
+  width: 97.5%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  h3{
+    color: white;
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em;
+  }
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .25em;
+    color: white;
+    line-height: 1em;
+  }
+  a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+.title-square-3{
+  background-color: $blue;
+  height: 97.5%;
+  width: 97.5%;
+  z-index: 10;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  h3{
+    color: white;
+    margin-top: .5em;
+    padding: .1em;
+    line-height: 1em;
+    font-size: 2em;
+  }
+  h5{
+    font-size: 1em;
+    font-family: 'acherusgrotesque-regular';
+    padding-left: .25em;
     color: white;
     line-height: 1em;
   }
@@ -235,6 +335,11 @@ nav{
         padding: .25em;
     }
 }
+
+
+
+
+
 }
 
 article{
@@ -248,6 +353,7 @@ article{
 /* HOME --------------------------------------- */
 .portfolio-items{
   margin-top: .75em;
+  list-style: none;
 }
 
 /* INDIVIDUAL-PIECE --------------------------------------- */
