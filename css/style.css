@@ -225,6 +225,9 @@ li:hover .title-square-3 {
   margin-top: 1em;
   margin-bottom: 1em; }
 
+.video-container {
+  overflow: hidden; }
+
 /* COLOR PALETTES --------------------------------------- */
 .color-palette {
   height: 2em;
