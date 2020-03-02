@@ -181,6 +181,10 @@ li:hover {
 }
 
 /* PORTFOLIO PAGE  --------------------------------------- */
+.portfolio-h2{
+  letter-spacing: normal;
+  font-size: 2em;
+}
 .title-square-1{
   background-color: $pink;
   height: 97.5%;
@@ -280,8 +284,52 @@ li:hover {
 .title-square-3{
   opacity: 1;
 }
+}.image-container{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+/* COLOR PALETTES --------------------------------------- */
+.color-palette{
+  height: 2em;
+  width: 2em;
+border-radius: 2em;
+  float: left;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+/* TEA */
+#tea-grey{
+  background-color: #333333;
+}
+#tea-light-grey{
+  background-color: #b4b4b4;
+}
+#tea-blue{
+  background-color: #0176b6;
+}
+#tea-light-blue{
+  background-color: #7ea1cf;
+}
+#tea-green{
+  background-color: #099e49;
+}
+#tea-light-green{
+  background-color: #a6cba3;
+}
+#tea-orange{
+  background-color: #f68720;
+}
+#tea-light-orange{
+  background-color: #fcbd85;
+}
+#tea-red{
+  background-color: #d63927;
+}
+#tea-light-read{
+  background-color: #e69274;
+}
 
 
 /* NAVIGATION --------------------------------------- */
