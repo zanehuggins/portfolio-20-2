@@ -557,11 +557,35 @@ padding-left: .25em;
   .portfolio-items li:nth-child(7){
     float: left !important;
   }
+
+  article{
+    padding-left: 2em !important;
+  }
+  .title-container{
+    padding-left: 2em;
+  }
+  .photo-container{
+    padding-right: 2em;
+  }
 }
 
 @media (min-width: 992px){
   #subnav{
     margin-top: 0;
+  }
+
+  .portfolio-items li:nth-child(7){
+    float: left !important;
+  }
+
+  article{
+    padding-left: 0 !important;
+  }
+  .title-container{
+    padding-left: 0;
+  }
+  .photo-container{
+    padding-right: 0;
   }
 
 /* PORTFOLIO ITEMS --------------------------------------- */
