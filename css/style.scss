@@ -571,6 +571,13 @@ padding-left: .25em;
     padding-left: 2em !important;
   }
 
+  .recent-work{
+    .title-square-1, .title-square-2, .title-square-3{
+      height: 98.5%;
+      width: 98.5%;
+    }
+  }
+
 /* PORTFOLIO ITEMS --------------------------------------- */
   .portfolio-items li:nth-child(7){
     float: left !important;
