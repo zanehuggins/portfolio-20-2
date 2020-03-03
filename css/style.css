@@ -136,6 +136,19 @@ p {
     opacity: 1; }
 
 /* PORTFOLIO PAGE  --------------------------------------- */
+article {
+  padding-left: 0; }
+  article h2 {
+    padding-left: 0; }
+  article p {
+    padding-left: 0; }
+
+.title-container {
+  padding-left: 0; }
+
+.photo-container {
+  padding-right: 0; }
+
 .portfolio-h2 {
   letter-spacing: normal;
   font-size: 2em; }
@@ -406,6 +419,9 @@ footer li {
   .recent-work ul {
     padding: inherit; } }
 @media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 2em !important; }
+
   /* PORTFOLIO ITEMS --------------------------------------- */
   .portfolio-items li:nth-child(7) {
     float: left !important; }
@@ -419,6 +435,9 @@ footer li {
   .photo-container {
     padding-right: 2em; } }
 @media (min-width: 992px) {
+  .navbar-brand {
+    padding-left: 0 !important; }
+
   #subnav {
     margin-top: 0; }
 
@@ -446,11 +465,17 @@ footer li {
     float: left !important; }
 
   .portfolio-items li:nth-child(9) {
-    float: left !important; } }
+    float: left !important; }
+
+  .title-square-1 h3, .title-square-2 h3, .title-square-3 h3 {
+    font-size: 1.25em; } }
 @media (min-width: 1200px) {
   .recent-work {
     float: right;
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .title-square-1 h3, .title-square-2 h3, .title-square-3 h3 {
+    font-size: 1.8em; } }
 .container-mixitup ul {
   width: 100%;
   overflow: hidden; }

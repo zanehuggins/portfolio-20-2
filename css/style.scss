@@ -182,6 +182,21 @@ li:hover {
 }
 
 /* PORTFOLIO PAGE  --------------------------------------- */
+article{
+  padding-left: 0;
+  h2{
+    padding-left: 0;
+  }
+  p{
+    padding-left: 0;
+  }
+}
+.title-container{
+  padding-left: 0;
+}
+.photo-container{
+  padding-right: 0;
+}
 .portfolio-h2{
   letter-spacing: normal;
   font-size: 2em;
@@ -552,6 +567,9 @@ padding-left: .25em;
 }
 
 @media (min-width: 768px){
+  .navbar-brand{
+    padding-left: 2em !important;
+  }
 
 /* PORTFOLIO ITEMS --------------------------------------- */
   .portfolio-items li:nth-child(7){
@@ -570,6 +588,9 @@ padding-left: .25em;
 }
 
 @media (min-width: 992px){
+  .navbar-brand{
+    padding-left: 0 !important;
+  }
   #subnav{
     margin-top: 0;
   }
@@ -603,13 +624,24 @@ padding-left: .25em;
   .portfolio-items li:nth-child(9){
     float: left !important;
   }
+  .title-square-1, .title-square-2, .title-square-3{
+    h3{
+      font-size: 1.25em;
+    }
+  }
 
 
 }
 @media (min-width: 1200px){
+
   .recent-work{
     float: right;
 padding-top: 0;
+  }
+  .title-square-1, .title-square-2, .title-square-3{
+    h3{
+      font-size: 1.8em;
+    }
   }
 
 
