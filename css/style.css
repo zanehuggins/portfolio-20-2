@@ -1,7 +1,7 @@
 /* VARIABLES --------------------------------------- */
 /* SYMANTIC STUFF --------------------------------------- */
 nav {
-  margin-bottom: 0 !important;
+  margin-bottom: 0em !important;
   padding-bottom: 0 !important; }
 
 footer {
@@ -12,6 +12,8 @@ footer {
   min-height: 100vh; }
 
 #subnav {
+  margin-top: .25em;
+  height: 3em;
   background-color: #333333; }
 
 /* TYPOGRAPHY --------------------------------------- */
@@ -281,7 +283,7 @@ nav .active a {
 
 .subnav {
   border-top: 4px solid #333333;
-  margin-top: .5em; }
+  margin-top: 0; }
 
 .subnav li {
   text-align: left;
@@ -304,6 +306,12 @@ nav .active a {
 
 #branding {
   background-color: #333333; }
+
+#web {
+  background-color: #005489; }
+
+#animation {
+  background-color: #ff6371; }
 
 /* HOME --------------------------------------- */
 .recent-work h2 {
@@ -376,6 +384,9 @@ footer li {
     padding-left: .5em; }
   .recent-work ul {
     padding: inherit; } }
+@media (min-width: 992px) {
+  #subnav {
+    margin-top: 0; } }
 @media (min-width: 1200px) {
   .recent-work {
     float: right;

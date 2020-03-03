@@ -6,7 +6,7 @@ $blue: #005489;
 
 /* SYMANTIC STUFF --------------------------------------- */
 nav{
-  margin-bottom: 0!important;
+  margin-bottom: 0em!important;
   padding-bottom: 0!important;
 }
 footer{
@@ -19,7 +19,8 @@ footer{
 }
 
 #subnav{
-
+  margin-top: .25em;
+height: 3em;
   background-color: $dark-grey;
 }
 
@@ -353,7 +354,7 @@ nav{
 }
 .subnav{
   border-top: 4px solid $dark-grey;
-  margin-top: .5em;
+  margin-top: 0;
 }
 
 .subnav{
@@ -385,7 +386,13 @@ nav{
   background-color: $dark-grey;
 }
 
+#web{
+  background-color: $blue;
+}
 
+#animation{
+  background-color: $pink;
+}
 
 /* HOME --------------------------------------- */
 
@@ -518,7 +525,9 @@ padding-left: .25em;
 
 
 @media (min-width: 992px){
-
+  #subnav{
+    margin-top: 0;
+  }
 
 }
 @media (min-width: 1200px){
