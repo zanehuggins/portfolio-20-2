@@ -292,6 +292,7 @@ li:hover {
 
 .video-container{
   overflow: hidden;
+  height: 100%;
 }
 
 /* COLOR PALETTES --------------------------------------- */
@@ -435,12 +436,10 @@ article{
 
 .portfolio-items li:nth-child(5){
   float: right !important;
+
 }
 
-.video-preview{
-margin: 0;
-padding: 0;
-}
+
 
 
 
