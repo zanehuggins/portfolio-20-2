@@ -289,7 +289,7 @@ nav .active a {
   text-align: left;
   list-style: none;
   float: left;
-  margin-right: 3em; }
+  margin-right: .5em; }
 .subnav a {
   color: white;
   text-decoration: none; }
