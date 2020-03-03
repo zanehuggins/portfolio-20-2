@@ -333,6 +333,9 @@ footer li {
 
 /* MEDIA 567px */
 @media (min-width: 567px) {
+  .title-square-1 h3, .title-square-2 h3, .title-square-3 h3 {
+    font-size: 1.8em; }
+
   nav ul {
     margin-top: 3em; }
   nav li {
@@ -344,6 +347,7 @@ footer li {
     color: white !important;
     font-weight: bold; }
 
+  /* TITLE SQUARES --------------------------------------- */
   ul {
     list-style: none; }
     ul li {
