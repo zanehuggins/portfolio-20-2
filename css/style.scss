@@ -19,7 +19,7 @@ footer{
 }
 
 #subnav{
-  height: 3em;
+
   background-color: $dark-grey;
 }
 
@@ -353,8 +353,7 @@ nav{
 }
 .subnav{
   border-top: 4px solid $dark-grey;
-  height: 0;
-  margin-top: 0;
+  margin-top: .5em;
 }
 
 .subnav{
@@ -372,6 +371,21 @@ nav{
     opacity: .75;
   }
 }
+
+.genre-indicator{
+  border: 2px solid white;
+  height: 1em;
+  width: 1em;
+  float: left;
+  margin: .25em;
+  border-radius: .75em;
+}
+
+#branding{
+  background-color: $dark-grey;
+}
+
+
 
 /* HOME --------------------------------------- */
 
@@ -431,12 +445,21 @@ footer{
   }
 }
 
+
+
+
 /* MEDIA 567px */
 
 @media (min-width: 567px){
   .title-square-1, .title-square-2, .title-square-3{
     h3{
       font-size: 1.8em;
+    }
+  }
+
+  .subnav{
+    li{
+      margin-right: 2em;
     }
   }
 
