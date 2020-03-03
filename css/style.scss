@@ -80,12 +80,12 @@ a{
 
 .title-square-1{
   background-color: $pink;
-  height: 97.5%;
+  height: 97.75%;
   z-index: 10;
   float: left;
   position: absolute;
   opacity: 0;
-  width: 97.5%;
+  width: 97.75%;
 
   h3{
     color: white;
@@ -110,8 +110,8 @@ a{
 
 .title-square-2{
   background-color: $dark-grey;
-  height: 97.5%;
-  width: 97.5%;
+  height: 97.75%;
+  width: 97.75%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -139,8 +139,8 @@ a{
 
 .title-square-3{
   background-color: $blue;
-  height: 97.5%;
-  width: 97.5%;
+  height: 97.75%;
+  width: 97.75%;
   z-index: 10;
   float: left;
   position: absolute;
@@ -563,6 +563,7 @@ padding-left: .25em;
   #subnav{
     margin-top: 0;
   }
+
 /* PORTFOLIO ITEMS --------------------------------------- */
   .portfolio-items{
     margin-top: .75em;
@@ -572,11 +573,12 @@ padding-left: .25em;
   .portfolio-items li:nth-child(3){
     float: left !important;
   }
-
   .portfolio-items li:nth-child(5){
     float: left !important;
   }
-
+  .portfolio-items li:nth-child(9){
+    float: left !important;
+  }
 
 
 }

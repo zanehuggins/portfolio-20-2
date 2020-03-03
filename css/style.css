@@ -58,12 +58,12 @@ p {
     width: 100%; }
   .recent-work .title-square-1 {
     background-color: #ff6371;
-    height: 97.5%;
+    height: 97.75%;
     z-index: 10;
     float: left;
     position: absolute;
     opacity: 0;
-    width: 97.5%; }
+    width: 97.75%; }
     .recent-work .title-square-1 h3 {
       color: white;
       margin-top: .5em;
@@ -82,8 +82,8 @@ p {
       text-decoration: none; }
   .recent-work .title-square-2 {
     background-color: #333333;
-    height: 97.5%;
-    width: 97.5%;
+    height: 97.75%;
+    width: 97.75%;
     z-index: 10;
     float: left;
     position: absolute;
@@ -106,8 +106,8 @@ p {
       text-decoration: none; }
   .recent-work .title-square-3 {
     background-color: #005489;
-    height: 97.5%;
-    width: 97.5%;
+    height: 97.75%;
+    width: 97.75%;
     z-index: 10;
     float: left;
     position: absolute;
@@ -422,6 +422,9 @@ footer li {
     float: left !important; }
 
   .portfolio-items li:nth-child(5) {
+    float: left !important; }
+
+  .portfolio-items li:nth-child(9) {
     float: left !important; } }
 @media (min-width: 1200px) {
   .recent-work {
