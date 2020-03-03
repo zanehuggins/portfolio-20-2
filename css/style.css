@@ -332,6 +332,12 @@ article {
   margin-top: .75em;
   list-style: none; }
 
+.portfolio-items li:nth-child(3) {
+  float: right !important; }
+
+.portfolio-items li:nth-child(5) {
+  float: right !important; }
+
 /* INDIVIDUAL-PIECE --------------------------------------- */
 .title {
   margin-top: 1em !important; }
@@ -386,7 +392,20 @@ footer li {
     padding: inherit; } }
 @media (min-width: 992px) {
   #subnav {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .portfolio-items {
+    margin-top: .75em;
+    list-style: none; }
+
+  .portfolio-items li:nth-child(3) {
+    float: left !important; }
+
+  .portfolio-items li:nth-child(5) {
+    float: left !important; }
+
+  .portfolio-items li:nth-child(8) {
+    float: left !important; } }
 @media (min-width: 1200px) {
   .recent-work {
     float: right;
