@@ -338,6 +338,10 @@ article {
 .portfolio-items li:nth-child(5) {
   float: right !important; }
 
+.video-preview {
+  margin: 0;
+  padding: 0; }
+
 /* INDIVIDUAL-PIECE --------------------------------------- */
 .title {
   margin-top: 1em !important; }
