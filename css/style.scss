@@ -575,8 +575,8 @@ padding-left: .25em;
 @media (min-width: 768px){
   nav{
     .active a{
-      background-color: $dark-grey !important;
-      color: white !important;
+      background-color: white;
+      color: black !important;
       font-weight: bold;
     }
     ul{
@@ -584,7 +584,7 @@ padding-left: .25em;
     }
   li{
     a{
-      text-align: left;
+      text-align: left !important;
     }
   }
 
@@ -637,6 +637,19 @@ padding-left: .25em;
 }
 
 @media (min-width: 992px){
+  nav{
+    .active a{
+      background-color: $dark-grey !important;
+      color: white !important;
+      font-weight: bold;
+    }
+    ul{
+      padding-left: 2em !important;
+    }
+  li{
+
+  }
+}
   nav{
     ul{
       padding-left: 0 !important;

@@ -425,13 +425,13 @@ footer li {
     padding: inherit; } }
 @media (min-width: 768px) {
   nav .active a {
-    background-color: #333333 !important;
-    color: white !important;
+    background-color: white;
+    color: black !important;
     font-weight: bold; }
   nav ul {
     padding-left: 2em !important; }
   nav li a {
-    text-align: left; }
+    text-align: left !important; }
   nav .portfolio-items li:nth-child(7) {
     float: left !important; }
 
@@ -465,6 +465,13 @@ footer li {
   .photo-container {
     padding-right: 2em; } }
 @media (min-width: 992px) {
+  nav .active a {
+    background-color: #333333 !important;
+    color: white !important;
+    font-weight: bold; }
+  nav ul {
+    padding-left: 2em !important; }
+
   nav ul {
     padding-left: 0 !important; }
 
