@@ -422,6 +422,16 @@ footer li {
   .navbar-brand {
     padding-left: 2em !important; }
 
+  .recent-work h2 {
+    padding-left: 2em; }
+  .recent-work ul {
+    padding-left: 2em;
+    padding-right: 2em; }
+
+  .home-article {
+    padding-left: 2em !important;
+    padding-right: 2em !important; }
+
   .recent-work .title-square-1, .recent-work .title-square-2, .recent-work .title-square-3 {
     height: 98.5%;
     width: 98.5%; }
@@ -445,6 +455,16 @@ footer li {
   #subnav {
     margin-top: 0; }
 
+  .recent-work h2 {
+    padding-left: 0; }
+  .recent-work ul {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .home-article {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
   .portfolio-items li:nth-child(7) {
     float: left !important; }
 
@@ -458,6 +478,12 @@ footer li {
     padding-right: 0; }
 
   /* PORTFOLIO ITEMS --------------------------------------- */
+  .link {
+    color: #ff6371; }
+
+  .link:hover {
+    text-decoration: none; }
+
   .portfolio-items {
     margin-top: .75em;
     list-style: none; }
