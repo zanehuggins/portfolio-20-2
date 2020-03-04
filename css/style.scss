@@ -499,6 +499,12 @@ footer{
 /* MEDIA 567px */
 
 @media (min-width: 567px){
+  .active a{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+  }
+
   .title-square-1, .title-square-2, .title-square-3{
     h3{
       font-size: 1.8em;
@@ -519,7 +525,7 @@ footer{
   li{
     width: 40%;
     a{
-      text-align: center;
+      text-align: center !important;
     }
   }
   .active a{
@@ -567,6 +573,28 @@ padding-left: .25em;
 }
 
 @media (min-width: 768px){
+  nav{
+    .active a{
+      background-color: $dark-grey !important;
+      color: white !important;
+      font-weight: bold;
+    }
+    ul{
+      padding-left: 2em !important;
+    }
+  li{
+    a{
+      text-align: left;
+    }
+  }
+
+
+  .portfolio-items li:nth-child(7){
+    float: left !important;
+  }
+
+
+}
   .navbar-brand{
     padding-left: 2em !important;
   }
@@ -609,6 +637,11 @@ padding-left: .25em;
 }
 
 @media (min-width: 992px){
+  nav{
+    ul{
+      padding-left: 0 !important;
+    }
+  }
   .navbar-brand{
     padding-left: 0 !important;
   }
@@ -619,6 +652,7 @@ padding-left: .25em;
   .recent-work{
     h2{
       padding-left: 0;
+      margin-top: 1em;
     }
     ul{
       padding-left: 0;
@@ -678,7 +712,7 @@ padding-left: .25em;
 
   .recent-work{
     float: right;
-padding-top: 0;
+
   }
   .title-square-1, .title-square-2, .title-square-3{
     h3{
