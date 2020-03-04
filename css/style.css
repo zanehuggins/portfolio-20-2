@@ -435,6 +435,9 @@ footer li {
   nav .portfolio-items li:nth-child(7) {
     float: left !important; }
 
+  .subnav ul {
+    padding-left: 2.75em; }
+
   .navbar-brand {
     padding-left: 2em !important; }
 
@@ -471,6 +474,8 @@ footer li {
     font-weight: bold; }
   nav ul {
     padding-left: 2em !important; }
+  nav li a {
+    text-align: center !important; }
 
   nav ul {
     padding-left: 0 !important; }
@@ -480,6 +485,9 @@ footer li {
 
   #subnav {
     margin-top: 0; }
+
+  .subnav ul {
+    padding-left: 0; }
 
   .recent-work h2 {
     padding-left: 0;

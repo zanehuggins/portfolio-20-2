@@ -595,6 +595,11 @@ padding-left: .25em;
 
 
 }
+.subnav{
+  ul{
+  padding-left: 2.75em;
+}
+}
   .navbar-brand{
     padding-left: 2em !important;
   }
@@ -647,7 +652,9 @@ padding-left: .25em;
       padding-left: 2em !important;
     }
   li{
-
+a{
+  text-align: center !important;
+}
   }
 }
   nav{
@@ -660,6 +667,11 @@ padding-left: .25em;
   }
   #subnav{
     margin-top: 0;
+  }
+  .subnav{
+    ul{
+    padding-left: 0;
+  }
   }
 
   .recent-work{
