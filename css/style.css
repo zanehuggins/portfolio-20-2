@@ -389,7 +389,8 @@ footer li {
   font-size: 1.25em; }
 
 .resume-article {
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-bottom: 4em; }
   .resume-article p {
     font-family: baskerville; }
   .resume-article ul {
@@ -400,28 +401,30 @@ footer li {
     font-weight: bold;
     margin-bottom: .5em; }
 
-aside h2 {
-  margin-top: 2em; }
-aside #aside-list {
-  list-style: none; }
-  aside #aside-list li {
-    padding: 0;
-    font-family: baskerville;
-    font-weight: bold; }
-aside #aside-list-2 {
-  list-style: none;
-  margin-top: 1em; }
-  aside #aside-list-2 li {
-    padding: 0;
-    font-family: baskerville;
-    font-weight: bold; }
-aside #aside-list-3 {
-  list-style: none;
-  margin-top: 1em; }
-  aside #aside-list-3 li {
-    padding: 0;
-    font-family: baskerville;
-    font-weight: bold; }
+aside {
+  padding-left: 2em !important; }
+  aside h2 {
+    margin-top: 2em; }
+  aside #aside-list {
+    list-style: none; }
+    aside #aside-list li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
+  aside #aside-list-2 {
+    list-style: none;
+    margin-top: 1em; }
+    aside #aside-list-2 li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
+  aside #aside-list-3 {
+    list-style: none;
+    margin-top: 1em; }
+    aside #aside-list-3 li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
 
 /* MEDIA 567px */
 @media (min-width: 567px) {
@@ -497,6 +500,8 @@ aside #aside-list-3 {
   .recent-work .title-square-1, .recent-work .title-square-2, .recent-work .title-square-3 {
     height: 98.5%;
     width: 98.5%; }
+  .recent-work aside {
+    padding-left: 0 !important; }
 
   /* PORTFOLIO ITEMS --------------------------------------- */
   .portfolio-items {

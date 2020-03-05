@@ -504,6 +504,7 @@ footer{
 
 .resume-article{
   margin-top: 1em;
+  margin-bottom: 4em;
   p{
     font-family: baskerville;
   }
@@ -519,7 +520,7 @@ footer{
 }
 
 aside{
-
+padding-left: 2em !important;
 h2{
   margin-top: 2em;
 }
@@ -679,6 +680,10 @@ padding-left: .25em;
     .title-square-1, .title-square-2, .title-square-3{
       height: 98.5%;
       width: 98.5%;
+    }
+
+    aside{
+      padding-left: 0!important;
     }
   }
 
