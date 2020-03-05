@@ -594,6 +594,7 @@ padding-left: .25em;
   }
 
 
+
 }
 .subnav{
   ul{
@@ -626,6 +627,10 @@ padding-left: .25em;
   }
 
 /* PORTFOLIO ITEMS --------------------------------------- */
+.portfolio-items{
+  padding-left: 2.75em;
+  padding-right: 2.75em;
+}
   .portfolio-items li:nth-child(7){
     float: left !important;
   }
