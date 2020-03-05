@@ -37,6 +37,10 @@ h5 {
   font-family: 'acherusgrotesque-regular';
   line-height: .4em; }
 
+h6 {
+  font-family: baskerville;
+  font-weight: bold; }
+
 p {
   font-family: acherusgrotesque-regular, sans-serif;
   font-size: 1em;
@@ -380,6 +384,47 @@ footer li {
     width: 2.5em;
     height: auto; }
 
+/* RESUME --------------------------------------- */
+.resume-h4 {
+  font-size: 1.25em; }
+
+.resume-article {
+  margin-top: 1em; }
+  .resume-article p {
+    font-family: baskerville; }
+  .resume-article ul {
+    list-style: none; }
+  .resume-article li {
+    padding: 0 !important;
+    font-family: baskerville;
+    font-weight: bold;
+    margin-bottom: .5em; }
+
+aside {
+  padding-right: 1em !important; }
+  aside h2 {
+    margin-top: 2em; }
+  aside #aside-list {
+    list-style: none; }
+    aside #aside-list li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
+  aside #aside-list-2 {
+    list-style: none;
+    margin-top: 1em; }
+    aside #aside-list-2 li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
+  aside #aside-list-3 {
+    list-style: none;
+    margin-top: 1em; }
+    aside #aside-list-3 li {
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold; }
+
 /* MEDIA 567px */
 @media (min-width: 567px) {
   .active a {
@@ -470,7 +515,10 @@ footer li {
     padding-left: 2em; }
 
   .photo-container {
-    padding-right: 2em; } }
+    padding-right: 2em; }
+
+  .resume-article {
+    padding-left: 2.75em !important; } }
 @media (min-width: 992px) {
   nav .active a {
     background-color: #333333 !important;
@@ -537,7 +585,10 @@ footer li {
     float: left !important; }
 
   .title-square-1 h3, .title-square-2 h3, .title-square-3 h3 {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  .resume-article {
+    padding-left: 0 !important; } }
 @media (min-width: 1200px) {
   .recent-work {
     float: right; }

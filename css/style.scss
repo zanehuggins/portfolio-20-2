@@ -49,6 +49,10 @@ h5{
   font-family: 'acherusgrotesque-regular';
   line-height: .4em;
 }
+h6{
+  font-family: baskerville;
+  font-weight: bold;
+}
 
 p{
   font-family: acherusgrotesque-regular, sans-serif;
@@ -493,7 +497,59 @@ footer{
   }
 }
 
+/* RESUME --------------------------------------- */
+.resume-h4{
+  font-size: 1.25em;
+}
 
+.resume-article{
+  margin-top: 1em;
+  p{
+    font-family: baskerville;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    padding: 0 !important;
+    font-family: baskerville;
+    font-weight: bold;
+    margin-bottom: .5em;
+  }
+}
+
+aside{
+  padding-right: 1em !important;
+h2{
+  margin-top: 2em;
+}
+  #aside-list{
+    list-style: none;
+    li{
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold;
+    }
+  }
+  #aside-list-2{
+    list-style: none;
+    margin-top: 1em;
+    li{
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold;
+    }
+  }
+  #aside-list-3{
+    list-style: none;
+    margin-top: 1em;
+    li{
+      padding: 0;
+      font-family: baskerville;
+      font-weight: bold;
+    }
+  }
+}
 
 
 /* MEDIA 567px */
@@ -644,6 +700,9 @@ padding-left: .25em;
   .photo-container{
     padding-right: 2em;
   }
+  .resume-article{
+    padding-left: 2.75em !important;
+  }
 }
 
 @media (min-width: 992px){
@@ -736,6 +795,9 @@ a{
     }
   }
 
+  .resume-article{
+    padding-left: 0!important;
+  }
 
 }
 @media (min-width: 1200px){
