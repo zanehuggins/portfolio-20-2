@@ -78,6 +78,10 @@ a{
   padding: 0;
   height: 100%;
   width: 100%;
+  img{
+  animation-name: home-images;
+  animation-duration: 1s;
+}
 }
 
 
@@ -839,3 +843,5 @@ position: relative;
 
 .containMix .mix {display: none;}
 }
+
+/* ANIMATIONS *****************************************/

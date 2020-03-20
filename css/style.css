@@ -60,6 +60,9 @@ p {
     padding: 0;
     height: 100%;
     width: 100%; }
+    .recent-work a img {
+      animation-name: home-images;
+      animation-duration: 1s; }
   .recent-work .title-square-1 {
     background-color: #ff6371;
     height: 97.75%;
@@ -607,5 +610,7 @@ aside {
   position: relative; }
 .container-mixitup .containMix .mix {
   display: none; }
+
+/* ANIMATIONS *****************************************/
 
 /*# sourceMappingURL=style.css.map */
