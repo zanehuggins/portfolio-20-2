@@ -572,6 +572,10 @@ aside {
     padding-right: 0; }
 
   /* PORTFOLIO ITEMS --------------------------------------- */
+  .portfolio-items {
+    padding-left: .5em;
+    padding-right: .5em; }
+
   .link {
     color: #ff6371; }
 
