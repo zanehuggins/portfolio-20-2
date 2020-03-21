@@ -13,7 +13,7 @@ footer {
 
 #subnav {
   margin-top: .25em;
-  height: 3em;
+  height: 0;
   background-color: #333333; }
 
 /* TYPOGRAPHY --------------------------------------- */
@@ -143,6 +143,16 @@ p {
     opacity: 1; }
 
 /* PORTFOLIO PAGE  --------------------------------------- */
+@keyframes subnav {
+  from {
+    background-color: white; }
+  to {
+    background-color: #333333; } }
+#subnav {
+  animation-name: subnav;
+  animation-duration: .5s;
+  animation-delay: 0; }
+
 article {
   padding-left: 0; }
   article h2 {
@@ -549,7 +559,9 @@ label {
     padding-left: 0 !important; }
 
   #subnav {
-    margin-top: 0; }
+    margin-top: 0;
+    height: 3em;
+    transition: background-color 2s ease; }
 
   .subnav ul {
     padding-left: 0; }
