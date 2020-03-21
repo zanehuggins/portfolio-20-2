@@ -429,6 +429,12 @@ aside {
       font-family: baskerville;
       font-weight: bold; }
 
+form {
+  margin-top: 2em; }
+
+label {
+  margin-top: 1em; }
+
 /* MEDIA 567px */
 @media (min-width: 567px) {
   .active a {
