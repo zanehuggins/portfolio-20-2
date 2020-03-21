@@ -445,6 +445,13 @@ form {
 label {
   margin-top: 1em; }
 
+.submit {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: .75em;
+  margin-top: 1em; }
+
 /* MEDIA 567px */
 @media (min-width: 567px) {
   .active a {
