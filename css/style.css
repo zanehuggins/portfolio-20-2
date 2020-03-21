@@ -455,11 +455,6 @@ label {
 
 /* MEDIA 567px */
 @media (min-width: 567px) {
-  .active a {
-    background-color: white !important;
-    color: black !important;
-    font-weight: bold; }
-
   .title-square-1 h3, .title-square-2 h3, .title-square-3 h3 {
     font-size: 1.8em; }
 
@@ -467,14 +462,14 @@ label {
     margin-right: 2em; }
 
   nav ul {
-    margin-top: 3em; }
+    margin-top: 1em; }
   nav li {
-    width: 40%; }
+    width: 40%;
+    border-top: 1px solid grey; }
     nav li a {
-      text-align: center !important; }
+      text-align: left !important; }
   nav .active a {
-    background-color: #333333;
-    color: white !important;
+    color: black !important;
     font-weight: bold; }
   nav .portfolio-items li:nth-child(7) {
     float: left !important; }
@@ -556,9 +551,12 @@ label {
     color: white !important;
     font-weight: bold; }
   nav ul {
-    padding-left: 2em !important; }
-  nav li a {
-    text-align: center !important; }
+    padding-left: 2em !important;
+    margin-top: 3em; }
+  nav li {
+    border: none; }
+    nav li a {
+      text-align: center !important; }
 
   nav ul {
     padding-left: 0 !important; }
@@ -605,7 +603,8 @@ label {
 
   .portfolio-items {
     margin-top: .75em;
-    list-style: none; }
+    list-style: none;
+    padding: .5em !important; }
 
   .portfolio-items li:nth-child(3) {
     float: left !important; }
