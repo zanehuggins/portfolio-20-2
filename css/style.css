@@ -150,8 +150,9 @@ p {
     background-color: #333333; } }
 #subnav {
   animation-name: subnav;
-  animation-duration: .5s;
-  animation-delay: 0; }
+  animation-duration: .75s;
+  animation-delay: 0;
+  height: 3em; }
 
 article {
   padding-left: 0; }
@@ -567,8 +568,7 @@ label {
 
   #subnav {
     margin-top: 0;
-    height: 3em;
-    transition: background-color 2s ease; }
+    height: 3em; }
 
   .subnav ul {
     padding-left: 0; }

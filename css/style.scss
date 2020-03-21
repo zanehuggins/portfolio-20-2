@@ -21,7 +21,7 @@ footer{
 
 #subnav{
   margin-top: .25em;
-height: 0;
+  height: 0;
   background-color: $dark-grey;
 }
 
@@ -203,8 +203,9 @@ to{
 
 #subnav{
   animation-name: subnav;
-  animation-duration: .5s;
+  animation-duration: .75s;
   animation-delay: 0;
+  height: 3em;
 }
 
 article{
@@ -772,7 +773,6 @@ a{
   #subnav{
     margin-top: 0;
     height: 3em;
-    transition: background-color 2s ease;
   }
 
   .subnav{
