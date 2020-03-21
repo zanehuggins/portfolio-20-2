@@ -2,7 +2,7 @@
 /* SYMANTIC STUFF --------------------------------------- */
 nav {
   margin-bottom: 0em !important;
-  padding-bottom: 0 !important; }
+  padding: 0 !important; }
 
 footer {
   margin-top: 1em;
@@ -572,10 +572,6 @@ aside {
     padding-right: 0; }
 
   /* PORTFOLIO ITEMS --------------------------------------- */
-  .portfolio-items {
-    padding-left: .5em;
-    padding-right: .5em; }
-
   .link {
     color: #ff6371; }
 

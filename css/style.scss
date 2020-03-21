@@ -7,7 +7,8 @@ $blue: #005489;
 /* SYMANTIC STUFF --------------------------------------- */
 nav{
   margin-bottom: 0em!important;
-  padding-bottom: 0!important;
+
+  padding:0!important;
 }
 footer{
   margin-top: 1em;
@@ -779,10 +780,7 @@ a{
   }
 
 /* PORTFOLIO ITEMS --------------------------------------- */
-.portfolio-items{
-  padding-left: .5em;
-  padding-right: .5em;
-}
+
 .link{
   color: $pink;
 }
