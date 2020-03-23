@@ -169,7 +169,9 @@ article {
 
 .portfolio-h2 {
   letter-spacing: normal;
-  font-size: 2em; }
+  font-size: 2em;
+  margin-top: 1em !important;
+  margin-bottom: .25em; }
 
 .title-square-1 {
   background-color: #ff6371;
